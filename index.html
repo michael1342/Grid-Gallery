@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="grid-assignment.css">
+    <style>
+        .hero {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 4px;
+   /*  grid-template-areas: "item1 item1 item2 item3 item4 item4"
+                            "item1 item1 item2 item5 item7 item8"
+                            "item9 item9 item10 item10 item10 item10"
+                            "item10 item10 item2 item5 item7 item7";
+                           
+    background-color: red;                     
+    width: 80vw; */
+    width: 80vw;
+    margin: 10px auto;
+    /* padding: 2rem; */
+    background-color: #ffffffc0;
+}
+
+.item {
+   
+}
+
+
+/* .hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+} */
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item1 {
+    background-color: lightcoral;
+    grid-column: span 2;
+    grid-row: span 2;
+   /*  grid-area: item1 */;
+}
+
+.item2 {
+    background-color: lightblue;
+   /*  grid-area: item2 */;
+   grid-row: span 2;
+}
+
+.item3 {
+    background-color: lightgreen;
+   /*  grid-area: item3 */;
+}
+
+.item4 {
+    background-color: lightpink;
+   /*  grid-area: item4 */;
+   grid-column: span 2;
+}
+
+.item5 {
+    background-color: lightgray;
+   /*  grid-area: item5 */;
+   grid-row: span 2;
+}
+
+.item6 {
+    background-color: lightyellow;
+   /*  grid-area: item6 */;
+}
+
+.item7 {
+    background-color: lightcyan;
+   /*  grid-area: item7 */;
+}
+
+.item8 {
+    background-color: lightgoldenrodyellow;
+   /*  grid-area: item8 */;
+   grid-column: span 2;
+}
+
+.item9 {
+    background-color: lightsteelblue;
+   /*  grid-area: item9 */  ;
+   grid-row: span 2;
+}
+
+.item10 {
+    background-color: lightseagreen;
+   /*  grid-area: item10 */;
+   grid-column: span 2;
+   grid-row: span 2;
+}
+
+.item11 {
+    background-color: lightpink;
+   /*  grid-area: item11 */;
+}
+.item12 {
+    background-color: lightsalmon;
+   /*  grid-area: item12 */;
+}    
+.item13 {
+    background-color: green;
+   /*  grid-area: item13  */;
+}
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="item item1"><img src="assets/images/Gon pfp _ icon _ pfp _ Anime boy _ hunter x hunter.jfif" alt="" ></div>
+        <div class="item item2"><img src="assets/images/Braus Sasha.jfif" alt=""></div>
+        <div class="item item3"><img src="assets/images/☕Levi Ackerman O exterminador de titã,esse é o….jfif" alt=""></div>
+        <div class="item item4"><img src="assets/images/armin.jfif" alt=""></div>
+        <div class="item item5"><img src="assets/images/Official Art.jfif" alt=""></div>
+        <div class="item item6"><img src="assets/images/Hange.jfif" alt=""></div>
+        <div class="item item7"><img src="assets/images/❄️Tōshirō❄️.jfif" alt=""></div>
+        <div class="item item8"><img src="https://plus.unsplash.com/premium_photo-1673306778968-5aab577a7365?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="200"></div>
+        <div class="item item9"><img src="assets/images/An intense and stunning illustration of Mikasa….jfif" alt=""></div>
+        <div class="item item10"><img src="assets/images/yuri.jfif" alt=""></div>
+        <div class="item item11"><img src="assets/images/Anime-Wallpaper-4K-Desktop.jpg" alt=""></div>
+        <div class="item item12"><img src="assets/images/eren.jfif" alt=""></div>
+        <div class="item item13"><img src="assets/images/Bankai __ Minazuki.jfif" alt=""></div>
+    </section>
+</body>
+</html>
